@@ -1,4 +1,4 @@
-$(function () {
+function bye() {
 
     console.log('js is working!');
 
@@ -17,10 +17,10 @@ $(function () {
 
       var abbrev;
       if (isEvening) {
-        abbrev = " pm";
+        abbrev = " PM";
       }
       else {
-        abbrev = " am";
+        abbrev = " AM";
       }
 
       var time = hour.toString() + ":" + minute.toString() + abbrev;
@@ -34,4 +34,4 @@ $(function () {
 
     $('button').on('click', showTime);
 
-});
+};
