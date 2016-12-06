@@ -3,7 +3,7 @@
 function divide(numerator, denominator) {
     console.log("numerator = " + numerator);
     console.log("denominator = " + denominator);
-    return denominator/numerator;
+    return numerator/denominator;
 }
 var answer = divide(10, 2);
 console.log("answer = " + answer);
