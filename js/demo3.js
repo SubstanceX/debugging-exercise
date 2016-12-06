@@ -8,3 +8,8 @@ function divide(numerator, denominator) {
 var answer = divide(10, 2);
 console.log("answer = " + answer);
 console.log("Is that answer correct?");
+if (answer === 5) {
+    console.log("Yes, it is correct!")
+}else {
+    console.log("Nope. That's wrong.")
+}
