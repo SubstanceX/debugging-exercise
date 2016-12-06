@@ -3,6 +3,6 @@ function divide(numerator, denominator) {
     console.log(numerator + "/" + denominator);
     return numerator/denominator;
 }
-var answer = divide(10, 0);
+var answer = 10/2;
 console.log("answer = " + answer);
 console.log("Is that answer correct?");
